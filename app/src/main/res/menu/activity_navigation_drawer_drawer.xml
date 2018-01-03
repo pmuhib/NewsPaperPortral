@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/home"
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/action_home"
+            />
+</group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/newspa"
+        >
+
+    <item
+            android:id="@+id/nav_newspapers"
+            android:title="@string/action_newspapers" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/epaper"
+        >
+        <item
+            android:id="@+id/nav_epaper"
+            android:title="@string/action_epaper" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/magazines"
+        >
+        <item
+            android:id="@+id/nav_magazines"
+            android:title="@string/action_magazines" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/job"
+        >
+        <item
+            android:id="@+id/nav_job"
+            android:title="@string/action_jobs" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/searchnews"
+        >
+        <item
+            android:id="@+id/nav_search"
+            android:title="@string/action_search" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/fav"
+        >
+        <item android:id="@+id/nav_favourites"
+            android:title="@string/action_fav"/>
+
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/sett"
+        >
+        <item android:id="@+id/nav_settings"
+            android:title="@string/action_settings"/>
+
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/privacy"
+        >
+        <item android:id="@+id/nav_privacy"
+            android:title="@string/action_privacy"/>
+
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/terms"
+        >
+        <item android:id="@+id/nav_terms"
+            android:title="@string/action_terms"/>
+
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/about"
+        >
+        <item android:id="@+id/nav_aboutus"
+            android:title="@string/action_aboutus"/>
+
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/exit"
+        >
+        <item android:id="@+id/nav_exit"
+            android:title="@string/action_exit"/>
+
+    </group>
+</menu>

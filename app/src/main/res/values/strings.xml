@@ -1,0 +1,324 @@
+<resources>
+    <string name="app_name">Roz Khabardar</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="search">Search</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_home">Home</string>
+    <string name="action_newspapers">News</string>
+    <string name="action_magazines">Magazines</string>
+    <string name="action_jobs">Jobs</string>
+    <string name="action_search">Search News</string>
+    <string name="action_epaper">Epapers</string>
+    <string name="action_fav">Favourites</string>
+    <string name="action_privacy">Privacy Policy</string>
+    <string name="action_terms">Terms &amp; Conditions</string>
+    <string name="action_aboutus">About Us</string>
+    <string name="action_contactus">Contact Us</string>
+    <string name="action_exit">Exit</string>
+    <string name="top_head">Top Headlines</string>
+    <string name="greaterkashmir">Greater Kashmir</string>
+    <string name="greaterjammu">Greater Jammu</string>
+    <string name="kashmirobserver">Kashmir Observer</string>
+    <string name="statetimes">State Times</string>
+    <string name="aftabdaily">Aftab Daily Urdu Newsppaer</string>
+    <string name="dailyexcelsior">Daily Excelsior</string>
+    <string name="kashmirglobal">Kashmir Global</string>
+    <string name="kashmirreader">Kashmir Reader</string>
+    <string name="jknewspoint">JK Newspoint</string>
+    <string name="kashmirwatch">Kashmir Watch</string>
+    <string name="kashmirmediawatch">Kashmir Media Watch</string>
+    <string name="france24">France 24</string>
+    <string name="risingkashmir">Rising Kashmir</string>
+    <string name="thenorthlines">The Northlines</string>
+    <string name="knskashmir">KNS-Kashmir News Services</string>
+    <string name="indianexpress">The Indian Express</string>
+    <string name="stateobserver">State Observer</string>
+    <string name="theshadow">The Shadow</string>
+    <string name="u4uvoice">U4UVoice</string>
+    <string name="kashmirlife">Kashmir Life</string>
+    <string name="freepresskashmir">Free Press Kashmir</string>
+    <string name="cnskashmir">CNS-Current News Service</string>
+    <string name="withkashmir">With Kashmir</string>
+    <string name="tribuneindia">The Tribune</string>
+    <string name="voiceofvalley">Voice of Valley</string>
+    <string name="kashmirvision">Kashmir Vision</string>
+    <string name="kashmirage">Kashmir Age</string>
+    <string name="kashmirconvener">Kashmir Convener</string>
+    <string name="therehmat">The Rehmat</string>
+    <string name="brighterkashmir">Brighter Kashmir</string>
+    <string name="kashmirthunder">Kashmir Thunder</string>
+    <string name="dailygadyal">Daily Gadyal</string>
+    <string name="wadikiawaz">Wadi Ki Awaz</string>
+    <string name="jehlumpost">Jehlum Post</string>
+    <string name="thekashmirscenario">The Kashmir Scenario</string>
+    <string name="kashmirpost">Kashmir Post</string>
+    <string name="jknn">JKNN</string>
+
+    <!--Magzines-->
+    <string name="Mag_kashmirmagazine">Kashmir Magazine</string>
+    <string name="Mag_thekashmirwalla">The Kashmir Walla</string>
+    <string name="Mag_kashmirscan">Kashmir Scan</string>
+    <string name="Mag_newskashmirmagazine">News Kashmir Magazine</string>
+    <string-array name="magazines">
+        <item>Kashmir Magazine</item>
+        <item>The Kashmir Walla</item>
+        <item>Kashmir Scan</item>
+        <item>Kashmiri Prisoners</item>
+        <item>Lost Kashmiri History</item>
+        <item>News Kashmir Magazine</item>
+        <item>Kashmir Life(Weekly Magazine from Kashmir)</item>
+        <item>UN Resolutions</item>
+        <item>Kashmir Oral History</item>
+        <item>Healing Kashmir</item>
+        <item>Search Kashmir</item>
+        <item>Green Kashmir</item>
+        <item>Kashmir Forum</item>
+        <item>Kashmir First News</item>
+        <item>Real Kashmir News</item>
+    </string-array>
+
+    <!--Jobs-->
+    <string name="Job_fresherslive">Jammu and kashmir Government Jobs</string>
+    <string name="Job_edunews">Education News</string>
+
+    <!--Newspaper Array-->
+    <string-array name="newspapers">
+        <item>Greater Kashmir</item>
+        <item>Kashmir Sports Watch</item>
+        <item>Kashmir Observer</item>
+        <item>Rising Kashmir</item>
+        <item>Kashmir Quick News</item>
+        <item>Fast Kashmir</item>
+        <item>The Kashmir Pulse</item>
+        <item>Kashmir Glory</item>
+        <item>Urdu Aftab Daily Newspaper</item>
+        <item>State Times</item>
+        <item>Daily Excelsior</item>
+        <item>Kashmir Global</item>
+        <item>JK Newspoint</item>
+        <item>Kashmir Watch</item>
+        <item>Kashmir Media Watch</item>
+        <item>France 24</item>
+        <item>The Northlines</item>
+        <item>KNS-Kashmir News Services</item>
+        <item>The Indian Express</item>
+        <item>State Observer</item>
+        <item>The Shadow</item>
+        <item>U4UVoice</item>
+        <item>Kashmir Life</item>
+        <item>Free Press Kashmir</item>
+        <item>CNS-Current News Service</item>
+        <item>With Kashmir</item>
+        <item>The Tribune</item>
+        <item>Voice of Valley</item>
+        <item>Kashmir Vision</item>
+        <item>Kashmir Age</item>
+        <item>Kashmir Convener</item>
+        <item>The Rehmat</item>
+        <item>Brighter Kashmir</item>
+        <item>Kashmir Thunder</item>
+        <item>Daily Gadyal</item>
+        <item>Wadi Ki Awaz</item>
+        <item>Trending Kashmir</item>
+        <item>The Kashmir Scenario</item>
+        <item>Kashmir Post</item>
+        <item>JKNN</item>
+        <item>SACH NEWS</item>
+        <item>Kashmir News Trust</item>
+        <item>Greater Jammu</item>
+        <item>Kashmir Reader</item>
+        <item>JandK Headlines</item>
+        <item>Kashmir Media Service</item>
+        <item>Vaadi Online</item>
+        <item>Jehlum Post</item>
+        <item>Good Morning Kashmir</item>
+        <item>Amar Ujala Hindi News</item>
+        <item>Cross Town News</item>
+        <item>Jagran Hindi News</item>
+        <item>Kashmir Today</item>
+        <item>Kashmir Patriot</item>
+        <item>Kashmir Voice</item>
+        <item>JK DAILY NEWS</item>
+        <item>Tral Times</item>
+        <item>Humans Of Jandk</item>
+        <item>THE TIMES OF KASHMIR</item>
+        <item>Geo News Kashmir</item>
+        <item>The INS News</item>
+        <item>JK NNI News</item>
+        <item>Kashmir Essence</item>
+        <item>Kashmir Daily News</item>
+        <item>Live Kashmir News</item>
+        <item>Razor Times[RNN]</item>
+        <item>JandK News Service</item>
+        <item>Jammu Kashmir Online News</item>
+        <item>Kashmir News</item>
+        <item>True News Asia</item>
+        <item>Kashmir Reflector</item>
+        <item>Kashmir News Zone</item>
+        <item>Era Of Kashmir</item>
+        <item>Kashmir News Wire</item>
+        <item>JK Evening Mail</item>
+        <item>NEWZ KASHMIR</item>
+        <item>Only Kashmir</item>
+        <item>Chinar News</item>
+    </string-array>
+
+    <string-array name="Jobs">
+<!--
+        <item>http://www.freejobalert.com/feed/</item>
+-->
+        <item>https://www.fresherslive.com/govt-jobs/jammu-and-kashmir-government-jobs-recruitment/feed</item>
+        <item>http://www.edunews.asia/feed/</item>
+        <item>http://jkadworld.com/feed/</item>
+        <item>https://kashmirpulse.com/category/jobs/feed</item>
+<!--        <item>https://www.freshersworld.com/feed</item>-->
+        <item>http://jkalerts.com/feed</item>
+        <item>http://jammu-kashmir.20govt.com/feed/</item>
+        <item>https://www.careesma.in/rss?q=jobs+in+jammu+and+kashmir</item>
+        <item>http://jkdailynews.com/category/jobs/feed/</item>
+        <item>https://humansofjandk.com/category/eduaction-updates/feed</item>
+        <item>http://www.jknni.com/category/career/feed/</item>
+        <item>http://www.kashmirnewszone.com/category/knz-inside-stories/jobs/feed/</item>
+        <item>http://www.jobsinjammu.com/feeds/posts/default?alt=rss</item>
+        <item>https://jkupdatez.wordpress.com/feed/</item>
+        <item>http://www.aeiro.com/feed/</item>
+    </string-array>
+
+    <string-array name="health">
+        <item>http://doctorsassociationkashmir.com/feed/</item>
+        <item>http://www.jknni.com/category/health-fitness/feed/</item>
+        <item>http://www.kashmirnewszone.com/category/knz-coverage/health/feed/</item>
+        <item>http://kashmirnewswire.com/category/health/feed/</item>
+    </string-array>
+
+    <string-array name="latestnews">
+        <item>https://kashmirobserver.net/rss.xml</item>
+        <item>http://www.risingkashmir.com/rss</item>
+        <item>http://feeds.feedburner.com/dailyaftab?format=xml</item>
+        <item>http://www.kashmirquicknews.com/feeds/posts/default?alt=rss</item>
+        <item>http://news.statetimes.in/feed/</item>
+        <item>http://www.dailyexcelsior.com/feed/</item>
+        <item>http://kashmirglobal.com/feed</item>
+        <item>http://www.greaterkashmir.com/feed.aspx?cat_id=2</item>
+        <item>http://www.greaterkashmir.com/feed.aspx?cat_id=3</item>
+        <item>http://www.greaterkashmir.com/feed.aspx?cat_id=4</item>
+        <item>http://www.greaterkashmir.com/feed.aspx?cat_id=31</item>
+        <item>http://www.ksportswatch.com/feed/</item>
+        <item>http://kashmirglory.com/feed/</item>
+        <item>http://www.fastkashmir.com/feed/</item>
+        <item>https://kashmirpulse.com/feed</item>
+        <item>http://feeds.feedburner.com/kashmir-reader?format=xml</item>
+        <item>http://jknewspoint.com/feed/</item>
+        <item>http://kashmirmediawatch.com/feed</item>
+        <item>http://kashmirwatch.com/feed/</item>
+        <item>http://www.france24.com/en/tag/kashmir/rss</item>
+        <item>http://www.thenorthlines.com/feed/</item>
+        <item>http://indianexpress.com/about/kashmir/feed/</item>
+        <item>http://www.stateobserver.com/feed/</item>
+        <item>http://theshadow.in/feed/</item>
+        <item>http://u4uvoice.com/feed/</item>
+        <item>http://www.jandknow.com/feed</item>
+
+        <item>http://kashmirlife.net/feed/</item>
+        <item>http://freepresskashmir.com/feed/</item>
+        <item>http://cnskashmir.com/feed/</item>
+        <item>http://withkashmir.org/feed/</item>
+        <item>http://www.tribuneindia.com/rss/feed.aspx?cat_id=5</item>
+        <item>http://voiceofvalley.com/feed/</item>
+        <item>http://kashmirvision.in/Feed/rss.xml</item>
+        <item>http://kashmirage.net/feed/</item>
+        <item>http://kashmirconvener.com/index.php/feed/</item>
+        <item>http://brighterkashmir.com/feed/</item>
+        <item>http://kashmirthunder.com/feed/</item>
+        <item>http://dailygadyal.com/feed/</item>
+        <item>http://wadikiawaz.org/feed/</item>
+        <item>https://trendngkashmir.com/feed/</item>
+        <item>http://thekashmirscenario.com/feed/</item>
+        <item>http://kashmirpost.org/feed/</item>
+        <item>http://jknn.net/feed/</item>
+        <!--<item>http://www.kashmirnewstrust.com/feed/</item>-->
+        <item>http://greaterjammu.com/feed/</item>
+        <item>http://therehmat.com/feed/</item>
+        <item>https://jandkheadlines.com/feed/</item>
+        <item>http://kmsnews.org/news/feed/</item>
+        <item>http://www.vaadionline.in/feed/</item>
+        <item>http://feeds.feedburner.com/GoodMorningKashmir</item>
+        <item>http://www.amarujala.com/rss/srinagar.xml</item>
+       <!-- <item>http://www.crosstownnews.in/rss.xml</item>-->
+        <item>http://rss.jagran.com/local/jammu-and-kashmir/srinagar.xml</item>
+        <item>https://kashmir.today/feed/</item>
+        <item>http://kashmirpatriot.com/feed/</item>
+        <item>http://kashmirvoice.org/index.php/feed/</item>
+        <item>http://jkdailynews.com/feed/</item>
+        <item>http://traltimes.com/feed/</item>
+        <item>https://humansofjandk.com/feed</item>
+        <item>https://realkashmirnews041.wixsite.com/realkashmirnews/feed.xml</item>
+        <item>http://thetimesofkashmir.com/feed/</item>
+        <item>https://geonewshec.wordpress.com/feed/</item>
+        <item>https://theins.in/feed/</item>
+        <item>http://www.jknni.com/feed/</item>
+        <item>http://kashmiressence.news/feed/</item>
+        <item>http://www.kashmirdailynews.com/feed/</item>
+        <item>http://www.lkashmirnews.in/feeds/posts/default</item>
+        <item>https://razortimes.wordpress.com/feed/</item>
+        <item>http://jknewsservice.com/feed/</item>
+        <item>https://jkonlinenews.wordpress.com/feed/</item>
+        <item>http://www.kashmirnews.co.in/feed/</item>
+        <item>https://truenews.asia/feed/</item>
+        <item>http://www.kashmirreflector.com/feeds/posts/default</item>
+        <item>http://www.kashmirnewszone.com/feed/</item>
+        <item>http://eraofkashmir.com/feed/</item>
+        <item>http://kashmirnewswire.com/feed/</item>
+        <item>http://www.jkeveningmail.com/feeds/posts/default</item>
+        <item>http://www.newzkashmir.com/feed/</item>
+
+
+        <item>http://www.greaterkashmir.com/feed.aspx?cat_id=10</item>
+        <item>http://www.greaterkashmir.com/feed.aspx?cat_id=23</item>
+        <item>http://www.greaterkashmir.com/feed.aspx?cat_id=32</item>
+        <item>http://www.greaterkashmir.com/feed.aspx?cat_id=9</item>
+        <item>http://www.greaterkashmir.com/feed.aspx?cat_id=7</item>
+        <item>http://www.greaterkashmir.com/feed.aspx?cat_id=8</item>
+        <item>http://www.greaterkashmir.com/feed.aspx?cat_id=26</item>
+        <item>http://www.greaterkashmir.com/feed.aspx?cat_id=12</item>
+
+        <item>http://lostkashmirihistory.com/feed/</item>
+        <item>http://www.kashmirmagazine.net/feed/</item>
+        <item>http://thekashmirwalla.com/feed/</item>
+        <item>http://kashmirscan.com/feed/</item>
+        <item>http://www.newskashmirmagazine.com/feed/</item>
+        <item>http://kashmirlife.net/tag/weekly-magazine-from-kashmir/feed/</item>
+        <item>https://www.blogger.com/feeds/6446855205529749029/posts/default</item>
+        <item>https://www.kmsnews.org/archives/category/freedom-struggle/un-resolutions/feed/</item>
+        <item>https://kashmirfirstnews.blogspot.com/feeds/posts/default</item>
+        <item>https://kashmiroralhistory.org/feed/</item>
+        <item>http://healingkashmir.org/latestNews/feed/</item>
+        <item>http://feeds.feedburner.com/SearchKashmir</item>
+        <item>https://www.greenkashmir.org/feed.xml</item>
+        <item>https://www.kashmirforum.org/feed/</item>
+        <item>https://www.blogger.com/feeds/7562697165118248523/posts/default</item>
+
+        <item>https://www.fresherslive.com/govt-jobs/jammu-and-kashmir-government-jobs-recruitment/feed</item>
+        <item>http://www.edunews.asia/feed/</item>
+        <item>http://jkadworld.com/feed/</item>
+        <item>https://kashmirpulse.com/category/jobs/feed</item>
+           <item>http://jkalerts.com/feed</item>
+        <item>http://jammu-kashmir.20govt.com/feed/</item>
+        <item>https://www.careesma.in/rss?q=jobs+in+jammu+and+kashmir</item>
+        <item>http://jkdailynews.com/category/jobs/feed/</item>
+        <item>https://humansofjandk.com/category/eduaction-updates/feed</item>
+        <item>http://www.jknni.com/category/career/feed/</item>
+        <item>http://www.kashmirnewszone.com/category/knz-inside-stories/jobs/feed/</item>
+
+        <item>http://doctorsassociationkashmir.com/feed/</item>
+        <item>http://www.jknni.com/category/health-fitness/feed/</item>
+        <item>http://www.kashmirnewszone.com/category/knz-coverage/health/feed/</item>
+        <item>http://kashmirnewswire.com/category/health/feed/</item>
+
+        <item>http://feeds.feedburner.com/KashmirNewsService?format=xml</item>
+        <item>http://onlykashmir.in/category/state/feed/</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+   >
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/search"
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        style="@style/simpleRectangle"
+       />
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:padding="4dp"
+        android:weightSum="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       >
+
+        <TextView
+            style="@style/forbutton"
+            android:layout_marginRight="15dp"
+            android:padding="5dp"
+            android:layout_weight="50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            style="@style/forbutton"
+            android:padding="5dp"
+            android:layout_weight="50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latest News"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+        <TextView
+            android:visibility="gone"
+            android:padding="2.5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_result"
+            android:text="No Result Found"
+            android:textStyle="italic"
+            android:textSize="14sp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_marginTop="5dp"
+            android:id="@+id/recyler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
