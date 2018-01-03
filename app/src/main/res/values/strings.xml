@@ -195,8 +195,8 @@
 
     <string-array name="latestnews">
         <item>https://kashmirobserver.net/rss.xml</item>
-        <item>http://www.risingkashmir.com/rss</item>
-        <item>http://feeds.feedburner.com/dailyaftab?format=xml</item>
+        <!--  <item>http://www.risingkashmir.com/rss</item>
+      <item>http://feeds.feedburner.com/dailyaftab?format=xml</item>
         <item>http://www.kashmirquicknews.com/feeds/posts/default?alt=rss</item>
         <item>http://news.statetimes.in/feed/</item>
         <item>http://www.dailyexcelsior.com/feed/</item>
@@ -238,7 +238,7 @@
         <item>http://thekashmirscenario.com/feed/</item>
         <item>http://kashmirpost.org/feed/</item>
         <item>http://jknn.net/feed/</item>
-        <!--<item>http://www.kashmirnewstrust.com/feed/</item>-->
+        &lt;!&ndash;<item>http://www.kashmirnewstrust.com/feed/</item>&ndash;&gt;
         <item>http://greaterjammu.com/feed/</item>
         <item>http://therehmat.com/feed/</item>
         <item>https://jandkheadlines.com/feed/</item>
@@ -246,7 +246,7 @@
         <item>http://www.vaadionline.in/feed/</item>
         <item>http://feeds.feedburner.com/GoodMorningKashmir</item>
         <item>http://www.amarujala.com/rss/srinagar.xml</item>
-       <!-- <item>http://www.crosstownnews.in/rss.xml</item>-->
+       &lt;!&ndash; <item>http://www.crosstownnews.in/rss.xml</item>&ndash;&gt;
         <item>http://rss.jagran.com/local/jammu-and-kashmir/srinagar.xml</item>
         <item>https://kashmir.today/feed/</item>
         <item>http://kashmirpatriot.com/feed/</item>
@@ -319,6 +319,6 @@
 
         <item>http://feeds.feedburner.com/KashmirNewsService?format=xml</item>
         <item>http://onlykashmir.in/category/state/feed/</item>
-
+-->
     </string-array>
 </resources>

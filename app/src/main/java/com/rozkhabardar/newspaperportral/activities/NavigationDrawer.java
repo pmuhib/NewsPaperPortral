@@ -1,6 +1,10 @@
 package com.rozkhabardar.newspaperportral.activities;
 
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentManager;
@@ -11,6 +15,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -19,6 +24,7 @@ import android.widget.FrameLayout;
 import com.crashlytics.android.Crashlytics;
 import com.crashlytics.android.ndk.CrashlyticsNdk;
 import com.rozkhabardar.newspaperportral.R;
+import com.rozkhabardar.newspaperportral.Services.AndroidBmService;
 import com.rozkhabardar.newspaperportral.fragments.EpaperList;
 import com.rozkhabardar.newspaperportral.fragments.Favourites;
 import com.rozkhabardar.newspaperportral.fragments.HomeFragment;
@@ -40,11 +46,18 @@ public class NavigationDrawer extends AppCompatActivity
     SharedPreference sharedPreference;
     public static     ArrayList<Items> mainfeed=new ArrayList<Items>();
     public static     ArrayList<Items> saveslist=new ArrayList<Items>();
+    public static     ArrayList<Items> ist=new ArrayList<Items>();
+
     public static Toolbar toolbar;
+
+    private static final String TAG = "BroadcastTest";
+    private Intent intent;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation_drawer);
+        intent = new Intent(this, AndroidBmService.class);
         setDefaultContainer();
         Fabric.with(this, new Crashlytics(), new CrashlyticsNdk());
 
@@ -73,10 +86,29 @@ public class NavigationDrawer extends AppCompatActivity
     }
 
 
+    private BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            updateUI(intent);
+        }
+    };
+
+    private void updateUI(Intent intent) {
+      //  intent=getIntent();
+       Bundle ars=intent.getBundleExtra("bundle");
+        if(ars!=null) {
+            ist= (ArrayList<Items>)ars.getSerializable("Slist");
+            for (int i = 0; i < ist.size(); i++) {
+                Log.d("Values after service", String.valueOf(ist));
+            }
+        }
+        }
 
     @Override
     protected void onResume() {
         super.onResume();
+        startService(intent);
+        registerReceiver(broadcastReceiver, new IntentFilter(AndroidBmService.BROADCAST_ACTION));
        /* if(getSupportFragmentManager().getBackStackEntryCount()>0)
         {
             getSupportFragmentManager().popBackStackImmediate();
@@ -84,6 +116,13 @@ public class NavigationDrawer extends AppCompatActivity
         else {
             setDefaultContainer();
         }*/
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        unregisterReceiver(broadcastReceiver);
+        stopService(intent);
     }
 
     private void setDefaultContainer() {
@@ -96,10 +135,7 @@ public class NavigationDrawer extends AppCompatActivity
         catch (Exception e)
         {
             Crashlytics.logException(e);
-
         }
-
-
     }
 
     @Override
@@ -214,7 +250,6 @@ public class NavigationDrawer extends AppCompatActivity
     }
     public void setActionBarTitle(String title)
     {
-
         getSupportActionBar().setTitle(title);
     }
 

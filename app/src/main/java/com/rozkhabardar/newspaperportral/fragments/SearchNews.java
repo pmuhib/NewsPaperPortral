@@ -95,7 +95,8 @@ public class SearchNews extends Fragment implements MyAdapter.Clickable {
                     @Override
                     public void onTaskCompleted(ArrayList<Article> list) {
                         try {
-                            for (int i=0;i<list.size();i++) {
+                            for (int i=0;i<list.size();i++)
+                            {
                                 String title = list.get(i).getTitle();
                                 String desc = list.get(i).getDescription();
 

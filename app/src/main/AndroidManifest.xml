@@ -31,6 +31,7 @@
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="e2e5cb7270585841ba153e98e9849e6e79759065" />
+        <service android:name=".Services.AndroidBmService"/>
     </application>
     <meta-data android:name="android.webkit.WebView.EnableSafeBrowsing"
         android:value="true" />
