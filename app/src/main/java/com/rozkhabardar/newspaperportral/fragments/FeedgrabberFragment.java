@@ -101,11 +101,6 @@ public class FeedgrabberFragment extends Fragment implements SwipeRefreshLayout.
 
                                     for (int i = 0; i < feedItems.size(); i++) {
                                         Items feediitems = new Items();
-                                /*ArrayList<String> cat = feedItems.get(i).categories;
-                                for (int j = 0; j < cat.size(); j++) {
-                                    Categories categories = new Categories();
-                                    categories.setKeys(cat.get(j));
-                                }*/
                                         String title = feedItems.get(i).getTitle();
 
                                         title = title.replaceAll("<(.*?)>", "");//Removes all items in brackets
@@ -154,7 +149,7 @@ public class FeedgrabberFragment extends Fragment implements SwipeRefreshLayout.
                                         } else if (image1 != null || !image1.isEmpty()) {
                                             feediitems.setImagelink(image1);
                                         }
-                                        // feediitems.setImagelink(feedItems.get(i).getThumbnail());
+
                                         desc = desc.replaceAll("<(.*?)>", "");//Removes all items in brackets
                                         desc = desc.replaceAll("&ldpos;", "");
                                         desc = desc.replaceAll("&ldquo;", "");

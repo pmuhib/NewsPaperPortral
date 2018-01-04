@@ -44,9 +44,9 @@ public class NavigationDrawer extends AppCompatActivity
     ActionBar actionBar;
     FrameLayout frame_content;
     SharedPreference sharedPreference;
-    public static     ArrayList<Items> mainfeed=new ArrayList<Items>();
-    public static     ArrayList<Items> saveslist=new ArrayList<Items>();
-    public static     ArrayList<Items> ist=new ArrayList<Items>();
+    public static ArrayList<Items> mainfeed=new ArrayList<Items>();
+    public static ArrayList<Items> saveslist=new ArrayList<Items>();
+    public static ArrayList<Items> ist=new ArrayList<Items>();
 
     public static Toolbar toolbar;
 
@@ -94,14 +94,11 @@ public class NavigationDrawer extends AppCompatActivity
     };
 
     private void updateUI(Intent intent) {
-      //  intent=getIntent();
-       Bundle ars=intent.getBundleExtra("bundle");
-        if(ars!=null) {
-            ist= (ArrayList<Items>)ars.getSerializable("Slist");
-            for (int i = 0; i < ist.size(); i++) {
-                Log.d("Values after service", String.valueOf(ist));
-            }
+        ist=( ArrayList<Items>)intent.getSerializableExtra("bundle");
+        for (int i = 0; i < ist.size(); i++) {
+            Log.d("Values after service", ""+ist.get(i).getTitle());
         }
+
         }
 
     @Override
@@ -109,20 +106,19 @@ public class NavigationDrawer extends AppCompatActivity
         super.onResume();
         startService(intent);
         registerReceiver(broadcastReceiver, new IntentFilter(AndroidBmService.BROADCAST_ACTION));
-       /* if(getSupportFragmentManager().getBackStackEntryCount()>0)
-        {
-            getSupportFragmentManager().popBackStackImmediate();
-        }
-        else {
-            setDefaultContainer();
-        }*/
+           }
+
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        unregisterReceiver(broadcastReceiver);
-        stopService(intent);
+       unregisterReceiver(broadcastReceiver);
+       // stopService(intent);
     }
 
     private void setDefaultContainer() {
