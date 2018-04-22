@@ -163,6 +163,8 @@
         <item>NEWZ KASHMIR</item>
         <item>Only Kashmir</item>
         <item>Chinar News</item>
+        <item>Kashmir News Bureau</item>
+        <item>Kashmir Narrator</item>
     </string-array>
 
     <string-array name="Jobs">
@@ -319,6 +321,8 @@
 
         <item>http://feeds.feedburner.com/KashmirNewsService?format=xml</item>
         <item>http://onlykashmir.in/category/state/feed/</item>
--->
+        <item>http://kashmirnewsbureau.com/feed/</item>
+        <item>http://kashmirnarrator.com/feed/</item>
+ -->
     </string-array>
 </resources>
