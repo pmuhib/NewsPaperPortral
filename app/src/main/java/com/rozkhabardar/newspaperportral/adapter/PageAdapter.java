@@ -27,51 +27,51 @@ public class PageAdapter extends FragmentStatePagerAdapter {
         switch (position)
         {
             case 0:
-                bundle.putString("Link","http://www.greaterkashmir.com/feed.aspx?cat_id=2");
+                bundle.putString("Link","https://www.greaterkashmir.com/feed.aspx?cat_id=2" );
                 greaterKashmir.setArguments(bundle);
                 return greaterKashmir;
             case 1:
-                bundle.putString("Link","http://www.greaterkashmir.com/feed.aspx?cat_id=3");
+                bundle.putString("Link","https://www.greaterkashmir.com/feed.aspx?cat_id=3");
                 greaterKashmir.setArguments(bundle);
                 return greaterKashmir;
             case 2:
-                bundle.putString("Link","http://www.greaterkashmir.com/feed.aspx?cat_id=4");
+                bundle.putString("Link","https://www.greaterkashmir.com/feed.aspx?cat_id=4");
                 greaterKashmir.setArguments(bundle);
                 return greaterKashmir;
             case 3:
-                bundle.putString("Link","http://www.greaterkashmir.com/feed.aspx?cat_id=31");
+                bundle.putString("Link","https://www.greaterkashmir.com/feed.aspx?cat_id=31");
                 greaterKashmir.setArguments(bundle);
                 return greaterKashmir;
             case 4:
-                bundle.putString("Link","http://www.greaterkashmir.com/feed.aspx?cat_id=10");
+                bundle.putString("Link","https://www.greaterkashmir.com/feed.aspx?cat_id=10");
                 greaterKashmir.setArguments(bundle);
                 return greaterKashmir;
             case 5:
-                bundle.putString("Link","http://www.greaterkashmir.com/feed.aspx?cat_id=23");
+                bundle.putString("Link","https://www.greaterkashmir.com/feed.aspx?cat_id=23");
                 greaterKashmir.setArguments(bundle);
                 return greaterKashmir;
             case 6:
-                bundle.putString("Link","http://www.greaterkashmir.com/feed.aspx?cat_id=32");
+                bundle.putString("Link","https://www.greaterkashmir.com/feed.aspx?cat_id=32");
                 greaterKashmir.setArguments(bundle);
                 return greaterKashmir;
             case 7:
-                bundle.putString("Link","http://www.greaterkashmir.com/feed.aspx?cat_id=9");
+                bundle.putString("Link","https://www.greaterkashmir.com/feed.aspx?cat_id=9");
                 greaterKashmir.setArguments(bundle);
                 return greaterKashmir;
             case 8:
-                bundle.putString("Link","http://www.greaterkashmir.com/feed.aspx?cat_id=7");
+                bundle.putString("Link","https://www.greaterkashmir.com/feed.aspx?cat_id=7");
                 greaterKashmir.setArguments(bundle);
                 return greaterKashmir;
             case 9:
-                bundle.putString("Link","http://www.greaterkashmir.com/feed.aspx?cat_id=8");
+                bundle.putString("Link","https://www.greaterkashmir.com/feed.aspx?cat_id=8");
                 greaterKashmir.setArguments(bundle);
                 return greaterKashmir;
             case 10:
-                bundle.putString("Link","http://www.greaterkashmir.com/feed.aspx?cat_id=26");
+                bundle.putString("Link","https://www.greaterkashmir.com/feed.aspx?cat_id=26");
                 greaterKashmir.setArguments(bundle);
                 return greaterKashmir;
             case 11:
-                bundle.putString("Link","http://www.greaterkashmir.com/feed.aspx?cat_id=12");
+                bundle.putString("Link","https://www.greaterkashmir.com/feed.aspx?cat_id=12");
                 greaterKashmir.setArguments(bundle);
                 return greaterKashmir;
             default:

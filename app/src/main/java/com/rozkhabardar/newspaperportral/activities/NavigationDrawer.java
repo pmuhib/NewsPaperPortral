@@ -220,8 +220,10 @@ public class NavigationDrawer extends AppCompatActivity
 
             }
             else if (id == R.id.nav_search) {
+/*
                 SearchNews newsPapersfrag=new SearchNews();
                 getSupportFragmentManager().beginTransaction().replace(R.id.subview_container,newsPapersfrag).addToBackStack(null).commit();
+*/
 
             }
             else if (id == R.id.nav_job) {
